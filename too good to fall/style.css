@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+body{
+    background-color: rgb(242, 249, 231);
+}
+
+/*navbar*/
+.navbar .bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: greenyellow;
+    height: 50px;
+}
+.navbar .bar .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar p{
+    font-size: 17px;
+    margin: 10px;
+}
+.nav, .logo{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+    font-size: 20px;
+}
+
+/*heading*/
+.heading h1{
+    background-color: rgb(240, 20, 155);
+    padding: 20px;
+    margin: 40px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    
+}
+.navbar .bar a :hover{
+    font-size: 19px;
+}
+
+/*kroppen*/
+
+.innhold{
+    background-color: rgb(245, 172, 217);
+    margin: 40px;
+    margin-top: 0px;
+    border-radius: 20px;
+    height: 370px;
+}
+.innhold .innhold1{
+    padding: 20px;
+}
+.filtrer{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid white;
+    background-color: rgb(240, 20, 155);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 90.6%;
+}
+.innhold1{
+    display: flex;
+    justify-content: space-between;
+}
+.innhold1 :hover{
+    color: rgb(236, 45, 163);
+}
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color: rgb(230, 249, 201);
+    color: white;
+    margin-top: 80px;
+ 
+}
+.knapp{
+    padding: 10px 20px; 
+    border: 2px solid white;
+    background-color: rgb(240, 20, 155);
+    color: white;
+    border-radius: 20px;
+}
+
+.knapp:hover{
+    background-color: rgb(245, 172, 217);
+    border: 2px solid rgb(242, 249, 231);
+}
+
+.tiltoppen{
+    align-items: center;
+    display: flex;
+}
+
+.footerliste ul{
+    list-style: none;
+    padding-left: 0;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.footerliste ul li a:hover{
+  color: black;
+}
+
+.footeroverskrift{
+    font-size: large;
+    font-weight: bold;
+    margin: 7px 0px;
+}
